@@ -32,10 +32,6 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 
 #### 2. Gestión de cargas
 
-2- Gestión de cargas
-
-#### 2. Gestión de cargas
-
 - Los aviones pueden transportar carga, la cual debe ser gestionada de manera eficiente. 
 - Los paquetes de carga se encuentran en el aeropuerto, identificados por el destino, el peso y el volumen.
 - Cada aeronave tiene una capacidad máxima de carga en peso y volumen, y se deben respetar estas restricciones al cargar los paquetes.
@@ -52,11 +48,7 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 - Llegada la hora límite, si algún pasajero no se presenta se lo da de baja de la nómina de pasajeros.
 - Toda la información relativa al vuelo se registra en un archivo de texto, incluyendo el número de vuelo, la fecha y hora de salida programada, la fecha y hora de partida real, la lista de los pasajeros embarcados, la lista de bultos despachados en calidad de equipaje, la lista de los pasajeros que no se presentaron, la lista de los pasajeros en lista de espera, y la lista de los paquetes de carga embarcados. El archivo se comprime con el algoritmo código de Huffman y se almacena en el servidor del aeropuerto. 
 
-#### 5. Despacho de vuelos
-
-3- Despacho de vuelos
-
-#### 5. Despacho de vuelos
+#### 4. Despacho de vuelos
 
 - Los vuelos deben ser despachados de acuerdo a un horario programado.
 - Se implementa una cola de prioridad para gestionar el despacho de vuelos, considerando la hora de salida programada y el estado de preparación del vuelo.
