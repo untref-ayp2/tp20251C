@@ -73,11 +73,12 @@ El informe técnico debe incluir:
 
 ## Datos de Entrada
 
-- Datos de vuelos: un archivo de texto que contiene la información de los vuelos programados, incluyendo el número de vuelo, la fecha y hora de salida programada, y la lista de pasajeros asignados.
-- Datos de pasajeros: un archivo de texto que contiene la información de los pasajeros, incluyendo el número de documento, nombre, apellido, categoría de pasajero y número de vuelo asignado.
-- Datos de carga: un archivo de texto que contiene la información de los paquetes de carga, incluyendo el destino, peso y volumen.
-- Datos de edificios y obstáculos: un archivo de texto que contiene la posición y altura de los edificios y obstáculos en el área del aeropuerto.
-- Datos de salida: un archivo de texto que contiene la información del vuelo, incluyendo el número de vuelo, la fecha y hora de salida programada, la fecha y hora de partida real, la lista de los pasajeros embarcados, la lista de bultos despachados en calidad de equipaje, la lista de los pasajeros que no se presentaron, la lista de los pasajeros en lista de espera, y la lista de los paquetes de carga embarcados.
-- Datos de la línea del horizonte: un archivo de texto que contiene la posición y altura de la línea del horizonte.
-- Datos de la compresión: un archivo de texto que contiene la información del vuelo comprimida con el algoritmo código de Huffman.
-- Datos de la descompresión: un archivo de texto que contiene la información del vuelo descomprimida con el algoritmo código de Huffman.
+En la carpeta `data` se encuentran los archivos de texto que contienen ejemplos de los archivos de datos de entrada:
+
+- `vuelos.txt`: Contiene la información de los vuelos programados, incluyendo número de vuelo, fecha y hora de salida programada, destino y aeronave asignada.
+- `clientes.txt`: Nombre, Apellido, DNI y categoría de los clientes de una aerolínea, potenciales pasajeros.
+- `aeropuertos.txt`: Contiene la información de los aeropuertos, incluyendo Provincia, Ciudad, Nombre del Aeropuerto y Código IATA (Código Internacional de 3 letras).
+- `carga.txt`: Contiene la información de los paquetes de carga, incluyendo el destino, peso y volumen.
+- `reservas.txt`: Contiene la información de las reservas de los pasajeros, incluyendo el número de reserva, Dni del pasajero, número de vuelo y estado de la reserva
+- `edificios.txt`: Contiene la información de los edificios y obstáculos en el área del aeropuerto, incluyendo la posición inicial, altura y posición final de cada edificio u obstáculo.
+- `aeronaves.txt`: Contiene la información de las aeronaves, incluyendo el código de la aeronave, el modelo, la capacidad máxima de carga y el número de asientos.
