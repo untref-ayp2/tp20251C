@@ -3,7 +3,7 @@
 
 ## Ojbetivo
 
-El objetivo de este trabajo es aplicar los conceptos aprendidos en clase en la resolución de un problema práctico.
+El objetivo de este trabajo es aplicar los conceptos aprendidos en clase en la resolución de un problema práctico, demostrando la capacidad de diseñar e implementar soluciones eficientes utilizando estructuras de datos y algoritmos avanzados.
 
 ## Enunciado
 
@@ -11,6 +11,12 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 
 ### Objetivos Específicos
 
+- Diseñar e implementar un sistema que simule las operaciones de un aeropuerto, incluyendo el check-in de pasajeros, la gestión de carga y el despacho de vuelos.
+- Utilizar estructuras de datos adecuadas (pilas, colas, listas, colas de prioridad, árboles binarios) para representar la información y gestionar los procesos.
+- Aplicar algoritmos de búsqueda, ordenamiento y optimización para mejorar la eficiencia del sistema.
+- Implementar técnicas de compresión de datos para el almacenamiento eficiente de la información del vuelo.
+- Evaluar el rendimiento del sistema mediante pruebas con diferentes escenarios de tráfico aéreo y volumen de pasajeros/carga.
+- Documentar el diseño, la implementación y los resultados del sistema en un informe técnico detallado.
 
 ### Descripción del Sistema
 
@@ -25,6 +31,7 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 - El vuelo puede tener pasajeros en lista de espera. Cuando la aerolíneas cierra el proceso de check-in si hay asientos disponibles asigna esos a asientos a los pasajeros en lista de espera. La asignación se realiza por prioridad y por orden de llegada, así los pasajeros frecuentes de la categoría platino son los que tienen mayor prioridad, luego los de la categoría oro, y por último los de la categoría plata. Si hay pasajeros que no son pasajeros frecuentes, se asignan luego de todos los pasajeros frecuentes.
 
 2- Gestión de cargas
+
 - Los aviones pueden transportar carga, la cual debe ser gestionada de manera eficiente. 
 - Los paquetes de carga se encuentran en el aeropuerto, identificados por el destino, el peso y el volumen.
 - Cada aeronave tiene una capacidad máxima de carga en peso y volumen, y se deben respetar estas restricciones al cargar los paquetes.
@@ -32,6 +39,7 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 - La carga se realiza 2 hs antes de la salida del vuelo. Una vez finalizada se procede al embarque de los pasajeros
 
 3- Embarque de pasajeros
+
 - Los pasajeros deben embarcar en el avión de acuerdo a un orden establecido.
 - Los pasajeros de la categoría platino, oro y plata pueden embarcar en cualquier momento.
 - Los pasajeros restantes embarcan por zonas, primero se habilita el embarque de la zona 1, luego la zona 2 y así sucesivamente. 
@@ -41,9 +49,32 @@ Desarrollar un **Sistema Integrado de Gestión de Operaciones Aeropuertarias** (
 - Toda la información relativa al vuelo se registra en un archivo de texto, incluyendo el número de vuelo, la fecha y hora de salida programada, la fecha y hora de partida real, la lista de los pasajeros embarcados, la lista de bultos despachados en calidad de equipaje, la lista de los pasajeros que no se presentaron, la lista de los pasajeros en lista de espera, y la lista de los paquetes de carga embarcados. El archivo se comprime con el algoritmo código de Huffman y se almacena en el servidor del aeropuerto. 
 
 3- Despacho de vuelos
+
 - Los vuelos deben ser despachados de acuerdo a un horario programado.
 - Se implementa una cola de prioridad para gestionar el despacho de vuelos, considerando la hora de salida programada y el estado de preparación del vuelo.
 - Los vuelos que están listos para despegar tienen prioridad sobre los que aún no lo están.
 - Antes de despachar se debe calcular la línea del horizonte. La línea del horizonte se calcula a partir de una lista de edificios y obstáculos en el área del aeropuerto. La entrada para calcular la línea del horizonte es un archivo de texto que contiene la posición y altura de los edificios y obstáculos. La salida es un archivo de texto que contiene la posición y altura de la línea del horizonte.
 
-El sistema debe simular la operación completa de un aeropuerto. Los datos para la simulación los puede obtener de archivos de textos a definir 
+## Requerimientos Adicionales:
+
+El sistema debe simular la operación completa de un aeropuerto, utilizando datos de archivos de texto definidos por el grupo.
+El sistema debe ser implementado en lenguaje de programación Go.
+El proyecto debe ser desarrollado utilizando buenas prácticas de programación, incluyendo la correcta modularización del código y la documentación interna.
+El informe técnico debe incluir:
+
+- Diagramas y descripción de las estructuras de datos utilizadas.
+- Descripción detallada de los algoritmos implementados.
+- Análisis de la complejidad temporal y espacial de los algoritmos.
+- Resultados de las pruebas con diferentes escenarios.
+- Conclusiones sobre la eficiencia del sistema y posibles mejoras.
+
+## Datos de Entrada
+
+- Datos de vuelos: un archivo de texto que contiene la información de los vuelos programados, incluyendo el número de vuelo, la fecha y hora de salida programada, y la lista de pasajeros asignados.
+- Datos de pasajeros: un archivo de texto que contiene la información de los pasajeros, incluyendo el número de documento, nombre, apellido, categoría de pasajero y número de vuelo asignado.
+- Datos de carga: un archivo de texto que contiene la información de los paquetes de carga, incluyendo el destino, peso y volumen.
+- Datos de edificios y obstáculos: un archivo de texto que contiene la posición y altura de los edificios y obstáculos en el área del aeropuerto.
+- Datos de salida: un archivo de texto que contiene la información del vuelo, incluyendo el número de vuelo, la fecha y hora de salida programada, la fecha y hora de partida real, la lista de los pasajeros embarcados, la lista de bultos despachados en calidad de equipaje, la lista de los pasajeros que no se presentaron, la lista de los pasajeros en lista de espera, y la lista de los paquetes de carga embarcados.
+- Datos de la línea del horizonte: un archivo de texto que contiene la posición y altura de la línea del horizonte.
+- Datos de la compresión: un archivo de texto que contiene la información del vuelo comprimida con el algoritmo código de Huffman.
+- Datos de la descompresión: un archivo de texto que contiene la información del vuelo descomprimida con el algoritmo código de Huffman.
