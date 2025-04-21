@@ -1,6 +1,6 @@
 # Rúbrica para el Trabajo Práctico Grupal - SIGOA
 
-**Puntaje Total: 100 puntos (80 puntos para la implementación y el informe escrito por módulo, 20 puntos para los aspectos generales)**
+**Puntaje Total: 100 puntos (80 puntos para la implementación general y 20 puntos para los aspectos generales)**
 
 ## Módulo 1: Check-in de Pasajeros (20 puntos)
 
