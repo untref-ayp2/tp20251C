@@ -86,6 +86,10 @@ En la carpeta `data` se encuentran los archivos de texto que contienen ejemplos 
 - `aeronaves.txt`: Contiene la información de las aeronaves, incluyendo el código de la aeronave, el modelo, la capacidad máxima de carga en peso (en kg) y la capacidad máxima de carga en volumen (en m³), y el número total de asientos.
 - `configuracion_asientos.txt`: Contiene la configuración de los asientos por zona para cada modelo de aeronave, incluyendo el código de la aeronave, la zona de embarque y el rango de números de asiento correspondientes (ej: `B738, 1, 1, 20`).
 
+Como parte del trabajo práctico, se espera que los grupos generen sus propios archivos de entrada para realizar pruebas adicionales y simular diferentes escenarios. Se espera que los grupos generen al menos 3 escenarios diferentes (bajo, medio y alto tráfico aéreo) y que cada escenario contenga al menos 10 vuelos programados, 100 pasajeros y 50 paquetes de carga. Al menos 20 edificios para calcular la línea del horizonte y al menos 5 aeronaves diferentes.
+
+Los archivos de salida generados por el sistema deben ser almacenados en la carpeta `output` y deben seguir un formato claro y consistente para facilitar su análisis posterior. Los archivos comprimidos generados por el algoritmo de Huffman se deben poder descomprimir y analizar para verificar la correcta compresión de los datos, para lo cual se deberá incluir una herramienta de descompresión de Huffman en el proyecto.
+
 ## Entregables
 
 1. **Código Fuente:**
