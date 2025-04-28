@@ -1,5 +1,6 @@
 # Trabajo Práctico Grupal de Algoritmos y Programación II
- Primer Cuatrimestre 2025
+
+Primer Cuatrimestre 2025
 
 ## Objetivo
 
@@ -61,17 +62,17 @@ El sistema debe simular la operación completa de un aeropuerto, desde la llegad
 - **Archivo de información del vuelo comprimido:** Un archivo `.huff` (o la extensión que corresponda a la implementación del algoritmo Huffman) que contenga la información detallada del vuelo una vez finalizado el embarque.
 - **Archivo de la línea del horizonte:** Un archivo de texto (`linea_horizonte.txt` o un nombre similar) que contenga los puntos (posición x, altura y) que definen la línea del horizonte calculada.
 
-## Requerimientos Adicionales:
+## Requerimientos Adicionales
 
 - El sistema debe simular la operación completa de un aeropuerto, utilizando datos de archivos de texto definidos por el grupo. La simulación debe ser controlada por eventos y debe mostrar en la consola los eventos principales que ocurren en el sistema (por ejemplo, "Pasajero X llega al check-in", "Vuelo Y comienza el check-in", "Vuelo Z es despachado").
 - El sistema debe ser implementado en lenguaje de programación Go.
 - El proyecto debe ser desarrollado utilizando buenas prácticas de programación, incluyendo la correcta modularización del código, el uso de estructuras de datos abstractas (interfaces) cuando sea apropiado y la documentación interna (comentarios en el código).
 - El informe técnico debe incluir:
-    - Diagramas de las estructuras de datos utilizadas para representar las entidades del sistema (vuelos, pasajeros, carga, etc.) y para gestionar los procesos (colas, listas, etc.).
-    - Descripción detallada de los algoritmos implementados para las tareas clave (check-in, asignación de carga, cálculo de la línea del horizonte, compresión Huffman, asignación de zonas de embarque, etc.).
-    - Análisis de la complejidad temporal y espacial de los algoritmos implementados.
-    - Resultados de las pruebas realizadas con diferentes escenarios de tráfico aéreo (bajo, medio, alto) y volumen de pasajeros/carga. Se deben incluir métricas relevantes para evaluar el rendimiento del sistema (por ejemplo, tiempo promedio de espera en el check-in, porcentaje de utilización de la capacidad de carga, tiempo total de procesamiento de un vuelo).
-    - Conclusiones sobre la eficiencia del sistema, identificación de posibles cuellos de botella y propuestas de mejoras.
+  - Diagramas de las estructuras de datos utilizadas para representar las entidades del sistema (vuelos, pasajeros, carga, etc.) y para gestionar los procesos (colas, listas, etc.).
+  - Descripción detallada de los algoritmos implementados para las tareas clave (check-in, asignación de carga, cálculo de la línea del horizonte, compresión Huffman, asignación de zonas de embarque, etc.).
+  - Análisis de la complejidad temporal y espacial de los algoritmos implementados.
+  - Resultados de las pruebas realizadas con diferentes escenarios de tráfico aéreo (bajo, medio, alto) y volumen de pasajeros/carga. Se deben incluir métricas relevantes para evaluar el rendimiento del sistema (por ejemplo, tiempo promedio de espera en el check-in, porcentaje de utilización de la capacidad de carga, tiempo total de procesamiento de un vuelo).
+  - Conclusiones sobre la eficiencia del sistema, identificación de posibles cuellos de botella y propuestas de mejoras.
 
 ## Datos de Entrada
 
@@ -93,23 +94,28 @@ Los archivos de salida generados por el sistema deben ser almacenados en la carp
 ## Entregables
 
 1. **Código Fuente:**
-    - Todo el código fuente de los programas, organizado en carpetas según la funcionalidad.
+
+   - Todo el código fuente de los programas, organizado en carpetas según la funcionalidad.
 
 2. **Documentación:**
-    - Documentación del código y las decisiones de diseño.
-    - Un informe detallado con la explicación de la solución y los resultados obtenidos.
+
+   - Documentación del código y las decisiones de diseño.
+   - Un informe detallado con la explicación de la solución y los resultados obtenidos.
 
 3. **Datos:**
-    - Archivos generados durante la ejecución de los programas.
-    - Ejemplos de entradas y salidas utilizadas para las pruebas.
+
+   - Archivos generados durante la ejecución de los programas.
+   - Ejemplos de entradas y salidas utilizadas para las pruebas.
 
 4. **Presentación Oral:**
-    - Una presentación oral explicando las soluciones implementadas y respondiendo preguntas sobre el código y los algoritmos utilizados. Las fechas de las presentaciones serán anunciadas posteriormente.
+   - Una presentación oral explicando las soluciones implementadas y respondiendo preguntas sobre el código y los algoritmos utilizados. Las fechas de las presentaciones serán anunciadas posteriormente.
 
 **Fecha Límite de Entrega:**
+
 - Semana del 23 de junio. Luego del segundo parcial se realizarán las presentaciones orales.
 
 **Evaluación:**
+
 - La correcta implementación de los algoritmos y estructuras de datos.
 - La eficiencia y claridad del código.
 - La documentación y presentación del trabajo.
@@ -122,4 +128,5 @@ Los archivos de salida generados por el sistema deben ser almacenados en la carp
 - **Coordinación y Comunicación:** Utilizar herramientas de gestión de proyectos (como Trello o Asana) y comunicación (Slack o WhatsApp) para coordinar el trabajo y mantener una comunicación fluida.
 - **Control de Versiones:** Utilizar Git para colaborar en el desarrollo del código y mantener un historial de cambios
 
-**🚨 TODOS LOS INTEGRANTES DEL EQUIPO DEBERAN HACER COMMITS AL REPOSITORIO PARA DEMOSTRAR SU PARTICIPACIÓN EN EL DESARROLLO 🚨**.
+> [!CAUTION]
+> 🚨 **TODOS LOS INTEGRANTES DEL EQUIPO DEBERAN HACER COMMITS AL REPOSITORIO PARA DEMOSTRAR SU PARTICIPACIÓN EN EL DESARROLLO** 🚨

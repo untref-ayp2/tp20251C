@@ -1,8 +1,9 @@
 # Informe del Trabajo Práctico Grupal - SIGOA
 
-**Algoritmos y Programación II - Primer Cuatrimestre 2025**
+## Algoritmos y Programación II - Primer Cuatrimestre 2025
 
 **Integrantes del Grupo:**
+
 - [Nombre y Apellido del Estudiante 1 - Legajo]
 - [Nombre y Apellido del Estudiante 2 - Legajo]
 - [Nombre y Apellido del Estudiante 3 - Legajo]
@@ -27,16 +28,16 @@
 ### 2.2. Estructuras de Datos
 
 - Para cada módulo principal (Check-in, Gestión de Carga, Embarque, Despacho):
-    - Descripción de las estructuras de datos utilizadas (pilas, colas, listas, colas de prioridad, árboles binarios, etc.).
-    - Justificación de la elección de cada estructura de datos en función de los requerimientos del problema.
-    - Diagramas de las estructuras de datos (si es pertinente).
+  - Descripción de las estructuras de datos utilizadas (pilas, colas, listas, colas de prioridad, árboles binarios, etc.).
+  - Justificación de la elección de cada estructura de datos en función de los requerimientos del problema.
+  - Diagramas de las estructuras de datos (si es pertinente).
 
 ### 2.3. Algoritmos Implementados
 
 - Para cada módulo principal:
-    - Descripción detallada de los algoritmos implementados para las tareas clave (simulación de llegada de pasajeros, gestión de colas de check-in, asignación de carga, cálculo de la línea del horizonte, compresión Huffman, asignación de zonas de embarque, gestión de la cola de prioridad para despacho, etc.).
-    - Explicación del funcionamiento de cada algoritmo, incluyendo pseudocódigo o diagramas de flujo si es necesario.
-    - Referencias a conceptos teóricos de algoritmos y estructuras de datos aplicados.
+  - Descripción detallada de los algoritmos implementados para las tareas clave (simulación de llegada de pasajeros, gestión de colas de check-in, asignación de carga, cálculo de la línea del horizonte, compresión Huffman, asignación de zonas de embarque, gestión de la cola de prioridad para despacho, etc.).
+  - Explicación del funcionamiento de cada algoritmo, incluyendo pseudocódigo o diagramas de flujo si es necesario.
+  - Referencias a conceptos teóricos de algoritmos y estructuras de datos aplicados.
 
 ### 2.4. Gestión de Datos de Entrada y Salida
 
@@ -54,9 +55,9 @@
 ## 4. Análisis de Complejidad
 
 - Para los algoritmos más relevantes implementados:
-    - Análisis de la complejidad temporal (en notación Big O).
-    - Análisis de la complejidad espacial (en notación Big O).
-    - Justificación del análisis realizado.
+  - Análisis de la complejidad temporal (en notación Big O).
+  - Análisis de la complejidad espacial (en notación Big O).
+  - Justificación del análisis realizado.
 
 ## 5. Pruebas y Resultados
 
